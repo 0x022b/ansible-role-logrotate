@@ -1,0 +1,5 @@
+---
+- name: Configure logrotate package
+  package:
+    name: logrotate
+    state: "{{ logrotate_package_state }}"

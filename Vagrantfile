@@ -2,14 +2,14 @@
 # vi: set ft=ruby :
 
 boxes = [
-  { :name => "centos-7", :box => "centos/7", :box_version => "1905.1" },
-  { :name => "centos-8", :box => "centos/8", :box_version => "1905.1" },
-  { :name => "debian-9", :box => "generic/debian9", :box_version => "2.0.6" },
-  { :name => "debian-10", :box => "generic/debian10", :box_version => "2.0.6" },
-  { :name => "fedora-31", :box => "fedora/31-cloud-base", :box_version => "31.20191023.0" },
-  { :name => "fedora-32", :box => "fedora/32-cloud-base", :box_version => "32.20200422.0" },
-  { :name => "ubuntu-1604", :box => "generic/ubuntu1604", :box_version => "2.0.6" },
-  { :name => "ubuntu-1804", :box => "generic/ubuntu1804", :box_version => "2.0.6" },
+  { :name => "centos-7", :box => "centos/7" },
+  { :name => "centos-8", :box => "centos/8" },
+  { :name => "debian-9", :box => "debian/stretch64" },
+  { :name => "debian-10", :box => "debian/buster64" },
+  { :name => "fedora-31", :box => "fedora/31-cloud-base" },
+  { :name => "fedora-32", :box => "fedora/32-cloud-base" },
+  { :name => "ubuntu-1804", :box => "generic/ubuntu1804" },
+  { :name => "ubuntu-2004", :box => "generic/ubuntu2004" },
 ]
 
 provisioner = ARGV.length == 1 ? boxes.last[:name] \

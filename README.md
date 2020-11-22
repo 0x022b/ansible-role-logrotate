@@ -1,5 +1,7 @@
 # Ansible Role: logrotate
 
+![Ansible Galaxy](https://github.com/0x022b/ansible-role-logrotate/workflows/Ansible%20Galaxy/badge.svg)
+
 Ansible role that configures logrotate package.
 
 ## Requirements
